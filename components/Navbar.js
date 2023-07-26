@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Navbar() {
     return <>
-        <nav className="sm:flex justify-between items-center mx-6 hidden">
+        <nav className="sm:flex justify-between items-center bg-[#E1DDD3] rounded-lg px-6 m-2 hidden">
             <Link href={"/"}>
                 <Image
                     src="/Logo.webp"
@@ -31,15 +31,23 @@ export default function Navbar() {
                     </button>
                 </Link>
             </div>
-            <div>
-                <Image />
-                <button className="border-2 border-solid border-black rounded-full p-1 mx-2">
-                    LOGIN IN
-                </button>
-            </div>
-        </nav>
+            <div className="flex">
+                <div className="flex">
+                    <Image
+                        src={"/Barcode.png"}
+                        width={150}
+                        height={100}
+                    />
+                </div>
+                <div>
+                    <button className="border-2 border-solid border-black rounded-full p-1 mx-2">
+                        LOGIN IN
+                    </button>
+                </div>
+            </div >
+        </nav >
 
-        <nav className="sm:hidden">
+        <nav className="sm:hidden bg-[#E1DDD3] rounded-lg">
             <div className="flex justify-between">
                 <Link href={"/"}>
                     <Image

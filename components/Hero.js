@@ -3,7 +3,7 @@ import Navbar from "./Navbar"
 
 export default function Hero() {
     return <>
-        <div className="bg-[#E1DDD3] h-screen rounded-lg m-2">
+        <div className="bg-[#E1DDD3] h-[730px] rounded-lg m-2 mb-14">
             <Navbar />
             <div className="bg-black text-white text-xs sm:text-4xl font-black rounded-xl p-1 sm:p-3 m-4 w-fit">
                 TAKING THE Ls OF LIFE & LEARNING FROM THEM
