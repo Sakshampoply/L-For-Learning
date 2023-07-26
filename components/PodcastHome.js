@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function PodcastHome() {
     return <>
-        <div className="text-white px-4 py-8 mx-5">
+        <div className="text-white w-fit sm:w-auto px-4 py-8 mx-5">
             <div className="flex justify-between items-center">
                 <h1 className="text-4xl font-bold">OUR LATEST EPISODES</h1>
                 <Link href={"/podcast"}><h1>VIEW ALL</h1></Link>

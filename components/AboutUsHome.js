@@ -8,11 +8,13 @@ export default function AboutUsHome() {
                 <Image src={"/Barcode2.png"}
                     width={150}
                     height={100}
+                    className="hidden sm:flex"
                 />
                 <h1 className="text-4xl font-bold">ABOUT L FOR LEARNING</h1>
                 <Image src={"/Barcode2.png"}
                     width={150}
                     height={100}
+                    className="hidden sm:flex"
                 />
             </div>
             <div className="bg-[#5546FF] rounded-2xl h-[400px]">
