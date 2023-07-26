@@ -3,7 +3,7 @@ import Navbar from "./Navbar"
 
 export default function Hero() {
     return <>
-        <div className="bg-[#E1DDD3] h-[730px] rounded-lg m-2 mb-14">
+        <div className="static bg-[#E1DDD3] h-[730px] rounded-lg m-2 mb-14">
             <Navbar />
             <div className="bg-black text-white text-xs sm:text-4xl font-black rounded-xl p-1 sm:p-3 m-4 w-fit">
                 TAKING THE Ls OF LIFE & LEARNING FROM THEM
@@ -23,9 +23,9 @@ export default function Hero() {
                 LEARNING
             </div>
             <div className="flex">
-                <div>
+                <div className="absolute left-0 top-[500px]">
                     <Image
-                        src="/SoundCloud.webp"
+                        src="/SoundCloud.png"
                         alt="SoundCloud Podcast"
                         className=""
                         width={260}
@@ -33,9 +33,9 @@ export default function Hero() {
                         priority
                     />
                 </div>
-                <div>
+                <div className="absolute left-[320px] top-[500px]">
                     <Image
-                        src="/Google.webp"
+                        src="/Google.png"
                         alt="Google Podcast"
                         className=""
                         width={225}
@@ -43,9 +43,9 @@ export default function Hero() {
                         priority
                     />
                 </div>
-                <div>
+                <div className="absolute left-[610px] top-[500px]">
                     <Image
-                        src="/castos.webp"
+                        src="/Castos.png"
                         alt="Castos Podcast"
                         className=""
                         width={240}
@@ -53,9 +53,9 @@ export default function Hero() {
                         priority
                     />
                 </div>
-                <div>
+                <div className="absolute left-[142px] top-[620px]">
                     <Image
-                        src="/Spotify.webp"
+                        src="/Spotify.png"
                         alt="Spotify Podcast"
                         className=""
                         width={225}
@@ -63,19 +63,19 @@ export default function Hero() {
                         priority
                     />
                 </div>
-                <div>
+                <div className="absolute left-[440px] top-[610px]">
                     <Image
-                        src="/Apple.webp"
+                        src="/Apple.png"
                         alt="Apple Podcast"
                         className=""
-                        width={275}
+                        width={200}
                         height={550}
                         priority
                     />
                 </div>
-                <div>
+                <div className="absolute right-12 top-[250px]">
                     <Image
-                        src="/Smiley.webp"
+                        src="/Smiley.png"
                         alt="Smiely Design-Element"
                         className=""
                         width={550}
