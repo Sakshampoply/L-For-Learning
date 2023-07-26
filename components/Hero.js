@@ -12,14 +12,14 @@ export default function Hero() {
                 <Image
                     src="/Logo.webp"
                     alt="Logo"
-                    className="p-4 mx-2 sm:mx-8"
+                    className="p-4 mx-2 sm:mx-8 w-[90px] sm:w-[150px]"
                     width={150}
                     height={185}
                     priority
                 />
                 FOR
             </div>
-            <div className="text-7xl sm:text-[160px] font-black px-2 sm:px-8 leading-none">
+            <div className="text-6xl sm:text-[160px] font-black px-2 sm:px-8 leading-none">
                 LEARNING
             </div>
             <div className="flex">
