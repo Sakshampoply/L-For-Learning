@@ -10,7 +10,7 @@ export default function Profile() {
     const router = useRouter();
 
     useEffect(() => {
-        if (!session) router.push('/login')
+        if (!session) router.push('/api/auth/signin')
     }, [router, session])
 
     return <>
