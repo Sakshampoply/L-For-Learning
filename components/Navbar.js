@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import { signIn, useSession } from "next-auth/react"
 
 export default function Navbar() {
     return <>
@@ -40,9 +41,11 @@ export default function Navbar() {
                     />
                 </div>
                 <div>
-                    <button className="border-2 border-solid border-black rounded-full p-1 mx-2">
-                        LOGIN IN
-                    </button>
+                    <Link href={"/profile"}>
+                        <button onClick={signIn} className="border-2 border-solid border-black rounded-full p-1 mx-2">
+                            LOGIN IN
+                        </button>
+                    </Link>
                 </div>
             </div >
         </nav >
