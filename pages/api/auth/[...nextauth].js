@@ -9,7 +9,13 @@ export const authOptions = {
             clientSecret: "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"
         })
     ],
-    secret: "ebae1bdd6c70162631943779bd929e55"
+    database: process.env.DB_URL,
+    session: {
+        jwt: true,
+    },
+    jwt: {
+        secret: "ebae1bdd6c70162631943779bd929e55",
+    }
 }
 
 export default NextAuth(authOptions)
