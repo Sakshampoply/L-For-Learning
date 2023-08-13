@@ -7,7 +7,7 @@ export default function Navbar() {
         <nav className="sm:flex justify-between items-center bg-[#E1DDD3] rounded-lg px-6 m-2 hidden">
             <Link href={"/"}>
                 <Image
-                    src="/Logo.webp"
+                    src="/Logo.png"
                     alt="Logo"
                     className="p-4"
                     width={80}

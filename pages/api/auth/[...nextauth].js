@@ -15,7 +15,7 @@ export const authOptions = {
     },
     jwt: {
         secret: "ebae1bdd6c70162631943779bd929e55",
-    }
+    },
 }
 
 export default NextAuth(authOptions)

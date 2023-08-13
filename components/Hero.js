@@ -10,7 +10,7 @@ export default function Hero() {
             </div>
             <div className="flex justify-center items-center text-7xl sm:text-[160px] font-black leading-none">
                 <Image
-                    src="/Logo.webp"
+                    src="/Logo.png"
                     alt="Logo"
                     className="p-4 mx-2 sm:mx-8 w-[90px] sm:w-[150px]"
                     width={150}

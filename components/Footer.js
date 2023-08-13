@@ -9,7 +9,7 @@ export default function Footer() {
                 <div className="flex items-center h-full">
                     <Link href={"/"}>
                         <Image
-                            src="/Logo.webp"
+                            src="/Logo.png"
                             alt="Logo"
                             className="p-6 mx-8"
                             width={150}
