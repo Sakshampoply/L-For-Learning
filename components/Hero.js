@@ -27,7 +27,7 @@ export default function Hero() {
                     <Image
                         src="/SoundCloud.png"
                         alt="SoundCloud Podcast"
-                        className=""
+                        className="animate-floating"
                         width={260}
                         height={155}
                         priority
@@ -37,7 +37,7 @@ export default function Hero() {
                     <Image
                         src="/Google.png"
                         alt="Google Podcast"
-                        className=""
+                        className="animate-floating"
                         width={225}
                         height={185}
                         priority
@@ -47,7 +47,7 @@ export default function Hero() {
                     <Image
                         src="/Castos.png"
                         alt="Castos Podcast"
-                        className=""
+                        className="animate-floating"
                         width={240}
                         height={185}
                         priority
@@ -57,7 +57,7 @@ export default function Hero() {
                     <Image
                         src="/Spotify.png"
                         alt="Spotify Podcast"
-                        className=""
+                        className="animate-floating"
                         width={225}
                         height={550}
                         priority
@@ -67,7 +67,7 @@ export default function Hero() {
                     <Image
                         src="/Apple.png"
                         alt="Apple Podcast"
-                        className=""
+                        className="animate-floating"
                         width={200}
                         height={550}
                         priority
