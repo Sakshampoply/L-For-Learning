@@ -9,18 +9,24 @@ module.exports = {
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       animation: {
-        'floating': 'floating 5s linear infinite',
+        'floating-up': 'floating-up 3s linear infinite',
+        'floating-up-slowed': 'floating-up 5s linear infinite',
+        'floating-down': 'floating-down 3s linear infinite',
       },
       keyframes: {
-        "floating": {
+        "floating-up": {
           '0%': { transform: 'translate(0, 0px)' },
           '50%': { transform: 'translate(0, 7px)' },
           '100%': { transform: 'translate(0, -0px)' }
-        }
+        },
+        "floating-down": {
+          '0%': { transform: 'translate(0, 0px)' },
+          '50%': { transform: 'translate(0, -7px)' },
+          '100%': { transform: 'translate(0, -0px)' }
+        },
       },
     }
   },
