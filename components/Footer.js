@@ -109,19 +109,19 @@ export default function Footer() {
                 </div>
                 <div className="p-6 sm:p-0">
                     <ul>
-                        <Link href={"/"}>
+                        <Link href={"https://instagram.com/lforlearning.life?igshid=MzRlODBiNWFlZA=="}>
                             <li className="p-6">
                                 +INSTA
                             </li>
                         </Link>
-                        <Link href={"/"}>
+                        <Link href={"https://www.linkedin.com/company/l-for-learning/people/"}>
                             <li className="p-6">
-                                +TWITTER
+                                +LINKEDIN
                             </li>
                         </Link>
-                        <Link href={"/"}>
+                        <Link href={"https://twitter.com/l_for_learning"}>
                             <li className="p-6">
-                                +FACEBOOK
+                                +X
                             </li>
                         </Link>
                     </ul>

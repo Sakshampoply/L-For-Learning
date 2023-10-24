@@ -23,7 +23,7 @@ export default function Hero() {
                 LEARNING
             </div>
             <div className="flex">
-                <div className="sm:absolute sm:left-0 sm:top-[500px]">
+                <div className="absolute left-0 top-[550px] sm:top-[500px] w-[140px]">
                     <Image
                         src="/SoundCloud.png"
                         alt="SoundCloud Podcast"
@@ -33,7 +33,7 @@ export default function Hero() {
                         priority
                     />
                 </div>
-                <div className="sm:absolute sm:left-[320px] sm:top-[500px]">
+                <div className="absolute left-[130px] sm:left-[320px] top-[550px] sm:top-[500px] w-[120px]">
                     <Image
                         src="/Google.png"
                         alt="Google Podcast"
@@ -43,7 +43,7 @@ export default function Hero() {
                         priority
                     />
                 </div>
-                <div className="sm:absolute sm:left-[610px] sm:top-[500px]">
+                <div className="absolute left-[240px] sm:left-[610px] top-[550px] sm:top-[500px] w-[130px]">
                     <Image
                         src="/Castos.png"
                         alt="Castos Podcast"
@@ -53,7 +53,7 @@ export default function Hero() {
                         priority
                     />
                 </div>
-                <div className="sm:absolute sm:left-[142px] sm:top-[620px]">
+                <div className="absolute left-[60px] sm:left-[142px] top-[620px] w-[130px]">
                     <Image
                         src="/Spotify.png"
                         alt="Spotify Podcast"
@@ -63,7 +63,7 @@ export default function Hero() {
                         priority
                     />
                 </div>
-                <div className="sm:absolute sm:left-[440px] sm:top-[610px]">
+                <div className="absolute left-[170px] sm:left-[440px] top-[610px] w-[110px]">
                     <Image
                         src="/Apple.png"
                         alt="Apple Podcast"
@@ -73,7 +73,7 @@ export default function Hero() {
                         priority
                     />
                 </div>
-                <div className="sm:absolute sm:right-12 sm:top-[250px]">
+                <div className="absolute right-8 sm:right-12 top-[290px] w-[250px]">
                     <Image
                         src="/Smiley.png"
                         alt="Smiely Design-Element"
