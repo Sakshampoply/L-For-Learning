@@ -73,10 +73,10 @@ export default function Footer() {
                     <div className="flex justify-center">
                         <Link href={"/"}>
                             <Image
-                                src="/SoundCloudFooter.webp"
-                                alt="Sound Cloud Podcast"
+                                src="/YoutubeFooter.webp"
+                                alt="Youtube Podcast"
                                 className="p-4 mx-8"
-                                width={112}
+                                width={150}
                                 height={185}
                                 priority
                             />

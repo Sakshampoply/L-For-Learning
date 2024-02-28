@@ -25,8 +25,8 @@ export default function Hero() {
             <div className="flex">
                 <div className="absolute left-0 top-[550px] sm:top-[500px] sm:w-[260px] w-[140px]">
                     <Image
-                        src="/SoundCloud.png"
-                        alt="SoundCloud Podcast"
+                        src="/Youtube.png"
+                        alt="Youtube Podcast"
                         className="animate-floating-up-slowed"
                         width={260}
                         height={155}

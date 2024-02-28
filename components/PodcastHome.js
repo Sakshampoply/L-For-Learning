@@ -9,7 +9,8 @@ export default function PodcastHome() {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2">
                 <div className="my-6 sm:me-4">
-                    <div className="bg-[#DE20E2] rounded-2xl p-4 h-[400px]"></div>
+                    <div className="bg-[#DE20E2] rounded-2xl p-4 h-[400px]">
+                    </div>
                     <h1 className="text-2xl font-bold p-2">EPISODE-1</h1>
                 </div>
                 <div className="my-6 sm:ms-4">
