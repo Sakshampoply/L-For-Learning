@@ -30,17 +30,17 @@ export default function Navbar() {
 
             <div className={`md:flex md:static absolute bg-[#E1DDD3] w-11/12 md:w-auto ${isOpen ? "top-24" : "top-[-490px]"}`}>
                 <Link href={"/aboutus"}>
-                    <button className="block border-2 border-solid border-black rounded-full p-1 mx-2 my-4 md:my-0">
+                    <button className="block border-2 border-solid border-black rounded-full p-1 mx-2 my-4 md:my-0 hover:text-white hover:border-white hover:bg-[#5546FF]">
                         ABOUT US
                     </button>
                 </Link>
                 <Link href={"/podcast"}>
-                    <button className="block border-2 border-solid border-black rounded-full p-1 mx-2 my-4 md:my-0">
+                    <button className="block border-2 border-solid border-black rounded-full p-1 mx-2 my-4 md:my-0 hover:text-white hover:border-white hover:bg-[#DE20E2]">
                         PODCAST
                     </button>
                 </Link>
                 <Link href={"/blog"}>
-                    <button className="block border-2 border-solid border-black rounded-full p-1 mx-2 my-4 md:my-0">
+                    <button className="block border-2 border-solid border-black rounded-full p-1 mx-2 my-4 md:my-0 hover:text-white hover:border-white hover:bg-[#00AC47]">
                         BLOG
                     </button>
                 </Link>
@@ -54,11 +54,11 @@ export default function Navbar() {
                     />
                 </div>
                 <div>
-                    <Link href={"/profile"}>
+                    {/* <Link href={"/profile"}>
                         <button onClick={signIn} className="block border-2 border-solid border-black rounded-full p-1 mx-2 my-4 md:my-0">
                             LOGIN IN
                         </button>
-                    </Link>
+                    </Link> */}
                     {/* <Image src={session && session.user && session.user.image}
                         width={100}
                         height={100} /> */}
